@@ -45,3 +45,29 @@ img {
   transition: all 0.3s ease;
   border: 3px solid;
 }
+
+#datetime-picker {
+  display: flex;
+  margin: auto;
+}
+
+.box-for-button {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.timer {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+}
