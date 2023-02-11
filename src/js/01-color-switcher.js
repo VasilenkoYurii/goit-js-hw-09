@@ -5,6 +5,8 @@ const refs = {
   prg: document.querySelector('p'),
 };
 
+let timerId = null;
+
 const div = document.createElement('div');
 div.classList.add('boxForButton');
 refs.start.classList.add('button-start');
@@ -28,5 +30,6 @@ refs.start.addEventListener('click', () => {
 
 refs.stop.addEventListener('click', () => {
   refs.start.removeAttribute('disabled', false);
+  refs.stop.setAttribute('disabled', true);
   clearInterval(timerId);
 });

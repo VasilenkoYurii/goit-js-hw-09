@@ -24,25 +24,25 @@ img {
   align-content: center;
   justify-content: center;
 }
-
+/* /* 
 .button-start {
   margin: 10px;
+  cursor: alias;
 }
 
 .button-stop {
   margin: 10px;
-}
+} */
 
 .button-start,
 .button-stop {
   width: 130px;
   height: 40px;
-  color: teal;
+
   border-radius: 5px;
   padding: 10px 25px;
   font-size: 18;
-  cursor: pointer;
-  transition: all 0.3s ease;
+
   border: 3px solid;
 }
 
